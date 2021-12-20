@@ -1,11 +1,27 @@
-.home-headerimg{
-    width: 100%;
-    height: 1200px;
-    /* Location of the image */
-    background-image: url("../../resources/Image/HeaderImg.jpg");   
-    background-repeat: no-repeat;
-    background-size: contain;
-    
+@media only screen and (min-width:920px){
+    .home-headerimg{
+        width: 100%;
+        height: 1200px;
+        /* Location of the image */
+        background-image: url("../../resources/Image/HeaderImg.jpg");   
+        background-repeat: no-repeat;
+        background-size:contain;
+        
+        
+    }
+}
+
+@media only screen and (max-width:920px) {
+    .home-headerimg{
+        width: 100%;
+        height: 1200px;
+        /* Location of the image */
+        background-image: url("../../resources/Image/HeaderImg.jpg");   
+        background-repeat: no-repeat;
+        background-size:cover;
+        
+        
+    }
 }
 
 @media only screen and (max-width: 900px) {
@@ -14,23 +30,80 @@
         background: white;
         padding: 20px;
         position: absolute;
-        top: 40%;
+        top: 100%;
         left: 25%;   
         width: 50%;
-        height: 30px;
-    }
-    .home-searchbar-icon1{
-        
+        height: 25px;
     }
   }
 
 @media only screen and (min-width:900px){
-    .home-searchbar-max{
-        
+    .home-searchbar-mini{
+        border-radius: 50px;
+        background: white;
+        padding: 20px;
+        position: absolute;
+        top: 40%;
+        left: 25%;   
+        width: 50%;
+        height: 25px;
     }
+    
 } 
 
+@media only screen and (min-width:900px){
+    .home-searchbar-input-text{
+        border: none;
+        width: 100%;
+        height: 20px;
+        outline: 0px;
+        font-size: large;
+        padding-left: 10px;
+        
+    }
 
-//  
+    .home-searchbar-icon1{
+        width: 100%;
+        height: 45px;
+        font-size: 30px;
+    }
+
+    .home-searchbar-row{
+        display: flex;
+        width: 100%;
+        height: 100%;
+        padding-left: 10px;
+        
+        
+    }
+}
+@media only screen and (max-width:900px){
+    .home-searchbar-input-text{
+        border: none;
+        width: 80%;
+        height: 20px;
+        outline: 0px;
+        font-size: large;
+        padding-left: 10px;
+        
+    }
+
+    .home-searchbar-icon1{
+        width: 100%;
+        height: 45px;
+        font-size: 30px;
+    }
+
+    .home-searchbar-row{
+        display: flex;
+        width: 100%;
+        height: 100%;
+        padding-left: 10px;
+        
+        
+    }
+}
+
+
 
 
