@@ -1,0 +1,19 @@
+.shere-button-btn {
+  background-color: #00EFAC;
+  border-color: #00EFAC;
+  border: 0px solid #f7f3f4;
+  font-weight: bold;
+  text-decoration: solid;
+  color: white;
+  width: 200px;
+  height: 70px;
+  border-radius: 8px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.shere-button-btn:hover {
+  color: black;
+  border: 2px solid #08110e;
+}
+
+/*# sourceMappingURL=signupbutton.css.map */
