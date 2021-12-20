@@ -40,6 +40,39 @@
     left: 25%;
     width: 50%;
     height: 25px;
+    display: none;
+  }
+
+  .home-searchbar-max {
+    border-radius: 50px;
+    background: white;
+    padding: 23px;
+    position: absolute;
+    top: 17%;
+    left: 10%;
+    width: 77%;
+    height: 25px;
+    display: block;
+  }
+
+  .home-searchbar-max-row {
+    display: flex;
+    width: 100%;
+    width: 100%;
+    padding-left: 10px;
+  }
+
+  .home-searchbar-input-text1 {
+    border: none;
+    width: 100%;
+    height: 20px;
+    outline: 0px;
+    font-size: large;
+  }
+
+  .home-searchbar-location-text {
+    color: #0b6144;
+    font-weight: bold;
   }
 }
 @media only screen and (min-width: 900px) {
@@ -60,7 +93,7 @@
 
   .home-searchbar-row {
     display: flex;
-    width: 100%;
+    width: 80%;
     height: 100%;
     padding-left: 10px;
   }
