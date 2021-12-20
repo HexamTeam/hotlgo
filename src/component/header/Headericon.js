@@ -8,7 +8,7 @@ import WhatshotIcon from '@material-ui/icons/Whatshot';
 const Headericon = () => {
     //this is the main component in header
     return(
-        <div>
+        <div className='headericon-whitespace'>
         
         <Button className='header-button-logobtn' ><img src={logo} className='header-button-logobtn-image'/></Button>
        
