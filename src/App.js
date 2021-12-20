@@ -6,8 +6,9 @@ import Button from './component/shere/Button';
 function App() {
   return (
     <div className="App">
-      <Button/>
+     
       <Headericon/>
+      {/* <Button/> */}
     </div>
   );
 }
