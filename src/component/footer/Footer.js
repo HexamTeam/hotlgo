@@ -1,8 +1,62 @@
 import '../../css/rootcss/footer.css'
+import FacebookIcon from '@mui/icons-material/Facebook';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import InstagramIcon from '@mui/icons-material/Instagram';
 
 const Footer = () => {
     return(
         <footer>
+            <div className="footer-mobile-container">
+                <div className="footer-mobile-left">
+                    <div className="footer-lft-important-sec">
+                        <div className="foo-glblimg"></div>
+                        <div className="foo-importance">
+                            <label className="foo-glbl-lbl1">Global exposure</label>
+                            <label className="foo-glbl-lbl2">Maximise your potential - be seen by millions of guests.</label>
+                        </div>
+                    </div>
+                    <div className="footer-lft-important-sec">
+                        <div className="foo-higr-perfom"></div>
+                        <div className="foo-importance">
+                            <label className="foo-glbl-lbl1">High-performin listings</label>
+                            <label className="foo-glbl-lbl2">Our Property Score ensures you'll stand out and get booked!</label>
+                        </div>
+                    </div>
+                    <div className="footer-lft-important-sec">
+                        <div className="foo-lst-aut-img"></div>
+                        <div className="foo-importance">
+                            <label className="foo-glbl-lbl1">Listings automation</label>
+                            <label className="foo-glbl-lbl2">Effortlessly manage all properties and listings. Save time and cut admin.</label>
+                        </div>
+                    </div>
+                </div>
+                <div className="footer-mobile-middle">
+                    <center><div className="foo-mobl-img"></div></center>
+                </div>
+                <div className="footer-mobile-right">
+                    <div className="footer-lft-important-sec">
+                        <div className="foo-importance-ri">
+                            <label className="foo-glbl-lbl1">Calender sync</label>
+                            <label className="foo-glbl-lbl2">No more double bookings or calender headaches.</label>
+                        </div>
+                        <div className="foo-cal-img"></div>
+                    </div>
+                    <div className="footer-lft-important-sec">
+                        <div className="foo-importance-ri">
+                            <label className="foo-glbl-lbl1">Bookings hub</label>
+                            <label className="foo-glbl-lbl2">Access all your bookings quickly and easily.</label>
+                        </div>
+                        <div className="foo-booking-img"></div>
+                    </div>
+                    <div className="footer-lft-important-sec">
+                        <div className="foo-importance-ri">
+                            <label className="foo-glbl-lbl1">Dedicated team</label>
+                            <label className="foo-glbl-lbl2">We work with thousands of vacation rental owners worldwide.</label>
+                        </div>
+                        <div className="foo-dedicated-img"></div>
+                    </div>
+                </div>
+            </div>
             <div className="footer-callout-container">
                 <h1 className="footer-callout-container-title">
                 Travel More, Travel Better
@@ -63,10 +117,15 @@ const Footer = () => {
             </div>
             <div className="footer-bottom-container">
                 <div className="footer-copyright">
-                    &copy;{new Date().getFullYear()} HotelGo. All rights reserved. Copyright (221-2030) - HotelGo.com <sup>TM</sup>
+                    &copy;{new Date().getFullYear()} HotelGo. All rights reserved. Copyright (221-2030) - HotelGo.com <sup className="foo-supp">TM</sup>
                 </div>
                 <div className="footer-social-media">
                     <span>English (GB)</span>
+                    <span className="footer-slm-icon">
+                        <span className="foo-icons"><FacebookIcon/></span>
+                        <span className="foo-icons"><TwitterIcon/></span>
+                        <span className="foo-icons"><InstagramIcon/></span>
+                    </span>
                 </div>
             </div>
         </footer>
