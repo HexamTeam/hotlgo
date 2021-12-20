@@ -1,14 +1,15 @@
 import './App.css';
 import Headericon from './component/header/Headericon';
-import Button from './component/shere/Button';
+import Home from './component/home/Home';
+
 
 
 function App() {
   return (
     <div className="App">
-     
       <Headericon/>
-      {/* <Button/> */}
+      <Home/>
+
     </div>
   );
 }
