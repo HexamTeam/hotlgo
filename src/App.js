@@ -7,7 +7,7 @@ import Home from './component/home/Home';
 function App() {
   return (
     <div className="App">
-      <Headericon/>
+      {/* <Headericon/> */}
       <Home/>
 
     </div>
