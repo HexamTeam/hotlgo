@@ -231,9 +231,10 @@
     justify-content: space-between;
     -webkit-box-align: center;
     align-items: center;
-    padding-bottom: 67px;
-    max-width: 1250px;
-    margin: 10px auto;
+    padding-bottom: 50px;
+    margin-top: 20px;
+    //max-width: 1250px;
+    //margin: 10px auto;
 }
 
 @media (max-width: 767px) {
@@ -245,13 +246,16 @@
 }
 
 .footer-copyright{
-    flex: 8 1 0%;
+    flex: 2 1 0%;
     font-family: Poppins, sans-serif;
     -webkit-font-smoothing: antialiased;
     text-shadow: rgb(0 0 0 / 0%) 1px 1px 1px;
     -webkit-tap-highlight-color: transparent;
     font-size: 14px;
     font-variant: tabular-nums;
+    margin-right:  150px;
+    letter-spacing: 0.6px;
+    color: 	rgb(88, 87, 87);
 }
 
 .footer-social-media{
@@ -261,6 +265,7 @@
     justify-content: flex-end;
     -webkit-box-align: center;
     align-items: center;
+    color: 	rgb(88, 87, 87);
 }
 
 @media (max-width: 767px) {
@@ -268,4 +273,169 @@
         display: flex;
         margin: 25px 0px;
     }
+}
+
+.footer-slm-icon{
+    color: rgb(3, 239, 171);
+    cursor: pointer;
+    margin: 0px 10px;
+}
+
+.foo-icons{
+    display: inline-block;
+    color: inherit;
+    font-style: normal;
+    line-height: 0;
+    text-align: center;
+    text-transform: none;
+    vertical-align: -0.125em;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    margin-left: 15px;
+}
+
+.foo-icons:hover{
+    color: rgb(236, 240, 240);
+}
+
+.foo-supp{
+    font-size: 9px;
+}
+
+::selection{
+    color: rgb(255, 255, 255);
+    background: rgb(3, 239, 171);
+}
+
+.footer-mobile-container{
+    margin-left: -15px;
+    margin-right: -15px;
+    row-gap: 0px;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.footer-mobile-left{
+    display: block;
+    text-align: left;
+    padding-top: 30px;
+    font-family: Poppins, sans-serif;
+}
+
+@media (min-width: 576px){
+    .footer-mobile-left{
+        flex: 0 0 33.33333333%;
+        max-width: 33.33333333%;
+    }
+}
+
+.footer-mobile-middle{
+    text-align: center;
+    align-items: center;
+}
+
+@media (min-width: 576px){
+    .footer-mobile-middle{
+        flex: 0 0 33.33333333%;
+        max-width: 33.33333333%;
+    }
+}
+
+.footer-mobile-right{
+    display: block;
+    text-align: right;
+    padding-top: 30px;
+    font-family: Poppins, sans-serif;
+}
+
+@media (min-width: 576px){
+    .footer-mobile-right{
+        flex: 0 0 33.33333333%;
+        max-width: 33.33333333%;
+    }
+}
+
+.footer-lft-important-sec{
+    padding: 20px 10px;
+    display: flex;
+}
+
+.foo-glblimg{
+    background-image: url("../../resources/icon/GlobalExposureImg.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 45px;
+    width: 45px;
+}
+
+.foo-importance{
+    display: grid;
+    margin-left: 18px;
+}
+
+.foo-glbl-lbl1{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.foo-glbl-lbl2{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.foo-higr-perfom{
+    background-image: url("../../resources/icon/High-PerformingListings.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 45px;
+    width: 45px;
+}
+
+.foo-lst-aut-img{
+    background-image: url("../../resources/icon/ListingsAutomationImg.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 45px;
+    width: 45px;
+}
+
+.foo-mobl-img{
+    background-image: url("../../resources/Image/PhoneImg.png");
+    max-width: 100%;
+    height: 500px;
+    vertical-align: middle;
+    background-size: contain;
+    background-repeat: no-repeat;
+    align-content: center;
+    //border-style: none;
+}
+
+.foo-importance-ri{
+    display: grid;
+    margin-right: 18px;
+}
+
+.foo-cal-img{
+    background-image: url("../../resources/icon/CalenderSyncImg.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 45px;
+    width: 45px;
+}
+
+.foo-booking-img{
+    background-image: url("../../resources/icon/BookingHubImg.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 45px;
+    width: 45px;
+}
+
+.foo-dedicated-img{
+    background-image: url("../../resources/icon/DedicatedTeamImg.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 45px;
+    width: 45px;
 }
