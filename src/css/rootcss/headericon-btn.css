@@ -1,5 +1,8 @@
 .header-button-logobtn {
   float: left;
+  border: none;
+  background-color: white;
+  cursor: pointer;
 }
 
 .header-button-logobtn-image {
@@ -15,6 +18,56 @@
   height: 80px;
   background-color: white;
   position: fixed;
+}
+
+.header-a {
+  cursor: pointer;
+  font-size: 30px;
+}
+
+@media only screen and (min-width: 900px) {
+  .header-button-hotelier {
+    font-size: 15px;
+    background-color: white;
+    border-color: #00EFAC;
+    border: 1px solid #474545;
+    font-weight: bold;
+    text-decoration: solid;
+    color: #c5c2c2;
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    cursor: pointer;
+  }
+
+  .hotelier-pading {
+    padding-top: 15px;
+    padding-left: 600px;
+    width: 10%;
+    position: absolute;
+    right: 15%;
+  }
+
+  .header-button-hotelier:hover {
+    background-color: #f3eff1;
+    color: black;
+  }
+}
+.header-icon-button {
+  border-radius: 50px;
+  background: #a2a1a3;
+  height: 10px;
+  padding-bottom: 3em;
+  text-align: right;
+  float: right;
+}
+
+.icon-button-pading {
+  padding-top: 15px;
+  padding-left: 600px;
+  width: 10%;
+  position: absolute;
+  right: 4%;
 }
 
 /*# sourceMappingURL=headericon-btn.css.map */
