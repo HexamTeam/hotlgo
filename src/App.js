@@ -5,11 +5,15 @@ import Home from './component/home/Home';
 
 
 
+
 function App() {
+
+  
   return (
     <div className="App">
-      {/* <Headericon/> */}
-      <Home/>
+      <Headericon/>
+      <Home/> 
+      
 
       <Footer/>
     </div>
