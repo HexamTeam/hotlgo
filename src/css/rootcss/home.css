@@ -29,6 +29,29 @@
     width: 50%;
     height: 25px;
   }
+
+  .home-searchbar-max {
+    display: none;
+  }
+
+  .home-searchbar-max-row {
+    display: none;
+  }
+
+  .home-searchbar-input-text1 {
+    border: none;
+    width: 100%;
+    height: 20px;
+    outline: 0px;
+    font-size: large;
+    display: none;
+  }
+
+  .home-searchbar-location-text {
+    color: #0b6144;
+    font-weight: bold;
+    display: none;
+  }
 }
 @media only screen and (min-width: 900px) {
   .home-searchbar-mini {

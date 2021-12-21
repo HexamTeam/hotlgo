@@ -1,12 +1,12 @@
 import logo from '../../resources/icon/LogoImg.jpg';
 import '../../css/rootcss/headericon-btn.css';
-import MenuIcon from '@mui/icons-material/Menu';
-import MenuItem from '@mui/material/MenuItem';
-import Menu from '@mui/material/Menu';
+// import MenuIcon from '@mui/icons-material/Menu';
+// import MenuItem from '@mui/material/MenuItem';
+// import Menu from '@mui/material/Menu';
 import React from "react";
-import { Button } from '@mui/material';
-import IconButton from '@material-ui/core/IconButton';
-import PersonOutlineIcon from '@mui/icons-material/PersonOutline';
+// import { Button } from '@mui/material';
+// import IconButton from '@material-ui/core/IconButton';
+// import PersonOutlineIcon from '@mui/icons-material/PersonOutline';
 
 
 const Headericon = () => {
@@ -29,7 +29,7 @@ const Headericon = () => {
         <button className='header-button-logobtn' ><img src={logo} className='header-button-logobtn-image'/></button>
         
          <div className='icon-button-pading'>
-         <Button
+         {/* <Button
                
                id="demo-positioned-button"
                aria-controls="demo-positioned-menu"
@@ -45,10 +45,10 @@ const Headericon = () => {
                    <MenuIcon fontSize="small"/>
                    <PersonOutlineIcon fontSize="small" /> 
                    </IconButton>
-           </Button>
+           </Button> */}
             
            
-           <Menu
+           {/* <Menu
                id="demo-positioned-menu"
                aria-labelledby="demo-positioned-button"
                anchorEl={anchorEl}
@@ -66,7 +66,7 @@ const Headericon = () => {
                <MenuItem onClick={handleClose}>Log In</MenuItem><br/>
                <MenuItem onClick={handleClose}>Register</MenuItem>
                
-           </Menu>
+           </Menu> */}
          </div>
 
                
