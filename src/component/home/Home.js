@@ -1,5 +1,5 @@
 import '../../css/rootcss/home.css';
-import SearchIcon from '@mui/icons-material/Search';
+// import SearchIcon from '@mui/icons-material/Search';
 import Headericon from '../header/Headericon';
 // import TextField from '@mui/material/TextField';
 // import DateRangePicker from '@mui/lab/DateRangePicker';
@@ -20,7 +20,7 @@ const Home = () => {
                 <center>
                     <div className='home-searchbar-mini'>
                         <div className='home-searchbar-row'>
-                            <div><SearchIcon className='home-searchbar-icon1'/></div>
+                            {/* <div><SearchIcon className='home-searchbar-icon1'/></div> */}
                             <div><input type='text' className='home-searchbar-input-text' placeholder="Hi, Where do want to go... "/></div>
                         </div>                       
                     </div>  

@@ -1,7 +1,7 @@
 import '../../css/rootcss/footer.css'
-import FacebookIcon from '@mui/icons-material/Facebook';
-import TwitterIcon from '@mui/icons-material/Twitter';
-import InstagramIcon from '@mui/icons-material/Instagram';
+// import FacebookIcon from '@mui/icons-material/Facebook';
+// import TwitterIcon from '@mui/icons-material/Twitter';
+// import InstagramIcon from '@mui/icons-material/Instagram';
 
 const Footer = () => {
     return(
@@ -121,11 +121,11 @@ const Footer = () => {
                 </div>
                 <div className="footer-social-media">
                     <span>English (GB)</span>
-                    <span className="footer-slm-icon">
+                    {/* <span className="footer-slm-icon">
                         <span className="foo-icons"><FacebookIcon/></span>
                         <span className="foo-icons"><TwitterIcon/></span>
                         <span className="foo-icons"><InstagramIcon/></span>
-                    </span>
+                    </span> */}
                 </div>
             </div>
         </footer>
