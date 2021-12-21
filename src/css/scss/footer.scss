@@ -253,8 +253,8 @@
     -webkit-tap-highlight-color: transparent;
     font-size: 14px;
     font-variant: tabular-nums;
-    margin-right:  150px;
-    letter-spacing: 0.6px;
+    margin-right:  100px;
+    //letter-spacing: 0.6px;
     color: 	rgb(88, 87, 87);
 }
 
@@ -284,14 +284,17 @@
 .foo-icons{
     display: inline-block;
     color: inherit;
-    font-style: normal;
-    line-height: 0;
+    
+    
     text-align: center;
     text-transform: none;
     vertical-align: -0.125em;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     margin-left: 15px;
+    font-size: large;
+    // height: 10px;
+    // width: 10px;
 }
 
 .foo-icons:hover{
@@ -321,6 +324,7 @@
     text-align: left;
     padding-top: 30px;
     font-family: Poppins, sans-serif;
+    //margin-left: 50px;
 }
 
 @media (min-width: 576px){
@@ -347,6 +351,7 @@
     text-align: right;
     padding-top: 30px;
     font-family: Poppins, sans-serif;
+    //margin-right: 20px;
 }
 
 @media (min-width: 576px){
@@ -357,12 +362,25 @@
 }
 
 .footer-lft-important-sec{
+    padding: 20px 20px;
+    display: flex;
+    padding-right: 50px;
+}
+
+.footer-lft-important-seco{
     padding: 20px 10px;
     display: flex;
+    padding-left: 50px;
+}
+
+.footer-lft-important-sec2{
+    padding: 20px 10px;
+    display: flex;
+    padding-right: 50px;
 }
 
 .foo-glblimg{
-    background-image: url("../../resources/icon/GlobalExposureImg.png");
+    //background-image: url("../../resources/icon/GlobalExposureImg.png");
     background-repeat: no-repeat;
     background-size: contain;
     height: 45px;
@@ -385,7 +403,7 @@
 }
 
 .foo-higr-perfom{
-    background-image: url("../../resources/icon/High-PerformingListings.png");
+    //background-image: url("../../resources/icon/High-PerformingListings.png");
     background-repeat: no-repeat;
     background-size: contain;
     height: 45px;
@@ -393,7 +411,7 @@
 }
 
 .foo-lst-aut-img{
-    background-image: url("../../resources/icon/ListingsAutomationImg.png");
+    //background-image: url("../../resources/icon/ListingsAutomationImg.png");
     background-repeat: no-repeat;
     background-size: contain;
     height: 45px;
@@ -401,9 +419,9 @@
 }
 
 .foo-mobl-img{
-    background-image: url("../../resources/Image/PhoneImg.png");
+    //background-image: url("../../resources/Image/PhoneImg.png");
     max-width: 100%;
-    height: 500px;
+    height: 400px;
     vertical-align: middle;
     background-size: contain;
     background-repeat: no-repeat;
@@ -416,8 +434,13 @@
     margin-right: 18px;
 }
 
+.foo-importance-ri2{
+    display: grid;
+    margin-right: 25px;
+}
+
 .foo-cal-img{
-    background-image: url("../../resources/icon/CalenderSyncImg.png");
+    //background-image: url("../../resources/icon/CalenderSyncImg.png");
     background-repeat: no-repeat;
     background-size: contain;
     height: 45px;
@@ -425,17 +448,141 @@
 }
 
 .foo-booking-img{
-    background-image: url("../../resources/icon/BookingHubImg.png");
+    //background-image: url("../../resources/icon/BookingHubImg.png");
     background-repeat: no-repeat;
     background-size: contain;
     height: 45px;
     width: 45px;
+    //margin-left: -5px;
 }
 
 .foo-dedicated-img{
-    background-image: url("../../resources/icon/DedicatedTeamImg.png");
+    //background-image: url("../../resources/icon/DedicatedTeamImg.png");
     background-repeat: no-repeat;
     background-size: contain;
     height: 45px;
     width: 45px;
+    //padding-right: 2px;
+}
+
+.foo-batn-sect{
+    
+    padding: 20px 10px;
+    display: flex;
+    width: 100%;
+}
+
+.foo-get-app-btn{
+    width: 35%;
+    background-position: center center;
+    // margin-top: 5px;
+    // margin-right: 10px;
+//     padding: 20px;
+//   float: left;
+//   width: 20%;
+}
+
+.foo-app-btn-back{
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    background-position: center center;
+    border-color: rgba(0, 0, 0, 0);
+    border-radius: 1.5rem;
+    background-color: rgb(3, 239, 171);
+    margin-bottom: 3px;
+    height: 40px;
+    width: 145px;
+    //padding: 0px 12px;
+}
+
+.foo-getthe-app{
+    
+    font-size: 14px;
+    line-height: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 0px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+
+// .foo-batn-qr{
+//     display: flex;
+//     -webkit-box-pack: center;
+//     justify-content: center;
+//     -webkit-box-align: center;
+//     align-items: center;
+    
+// }
+
+.foo-qr-box{
+    display: inline-block;
+    max-width: 100%;
+    overflow: hidden;
+    position: relative;
+    box-sizing: border-box;
+    //margin: 0px;
+    padding: 30px 50px;
+    // padding: 20px;
+
+  
+}
+
+.foo-qr-brdr{
+    box-sizing: border-box;
+    display: block;
+    max-width: 100%;
+}
+
+.foo-qr-img{
+    position: absolute;
+    inset: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    border: none;
+    margin: auto;
+    display: block;
+    width: 45px;
+    height: 45px;
+    background-image: url("../../resources/icon/QR.PNG");
+    //min-width: 100%;
+    max-width: 100%;
+   // min-height: 100%;
+    max-height: 100%;
+    margin-bottom: 3px;
+    margin-left: 10px;
+}
+
+.foo-dwnld-btn{
+    width: 35%;
+    //margin-left: 10px;
+    margin-top: 10px;
+}
+
+.foo-appstore-batn{
+    //margin-right: 80px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    background-position: center center;
+    border-color: rgba(0, 0, 0, 0);
+    border-radius: 1.5rem;
+    background-color: black;
+    width: 125px;
+    height: 45px;
+    background-image: url("../../resources/icon/AppStoreImg.PNG");
+}
+
+.foo-gplay-batn{
+    //margin-right: 80px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    background-position: center center;
+    border-color: rgba(0, 0, 0, 0);
+    border-radius: 1.5rem;
+    background-color: black;
+    width: 125px;
+    height: 45px;
+    background-image: url("../../resources/icon/GooglePlayImg.PNG");
 }

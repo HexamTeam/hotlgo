@@ -11,11 +11,17 @@
 @media only screen and (max-width: 920px) {
   .home-headerimg {
     width: 100%;
-    height: 1200px;
+    height: 100vh;
     /* Location of the image */
     background-image: url("../../resources/Image/HeaderImg.jpg");
+    background-position: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    margin-bottom: -100px;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover !important;
   }
 }
 @media only screen and (max-width: 900px) {
@@ -24,26 +30,27 @@
     background: white;
     padding: 20px;
     position: absolute;
-    top: 100%;
+    top: 50%;
     left: 25%;
     width: 50%;
-    height: 25px;
   }
 
   .home-searchbar-max {
+    height: 80px;
+    max-height: 50px;
+    width: 80vw;
     display: none;
   }
 
   .home-searchbar-max-row {
+    display: flex;
+    width: 100%;
+    width: 100%;
+    padding-left: 10px;
     display: none;
   }
 
   .home-searchbar-input-text1 {
-    border: none;
-    width: 100%;
-    height: 20px;
-    outline: 0px;
-    font-size: large;
     display: none;
   }
 
@@ -67,13 +74,17 @@
   }
 
   .home-searchbar-max {
-    border-radius: 50px;
+    border-radius: 32px;
     background: white;
+
+    margin-left: -15px;
+    margin-right: -15px;
     position: absolute;
     top: 17%;
-    left: 10%;
-    width: 77%;
-    height: 60px;
+    left: 15%;
+    width: 75%;
+    height: 70px;
+
     display: block;
   }
 
@@ -81,7 +92,8 @@
     display: flex;
     width: 100%;
     height: 100%;
-    padding-left: 10px;
+
+
   }
 
   .home-searchbar-input-text1 {
@@ -90,11 +102,39 @@
     height: 20px;
     outline: 0px;
     font-size: large;
+    display: block;
+    padding-top: 2;
+  }
+
+  .home-searchbar-input-text1::-webkit-input-placeholder {
+    font-size: 16px;
+    line-height: 2;
   }
 
   .home-searchbar-location-text {
     color: #0b6144;
     font-weight: bold;
+    width: 100%;
+  }
+
+  .home-searchbar-max-firstdiv {
+    width: 25%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .home-searchbar-max-seconddiv {
+    width: 80%;
+  }
+
+  .home-searchbar-max-thirddiv {
+    display: flex;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .home-searchbar-max-thirddiv table {
+    margin-left: 100px;
   }
 }
 @media only screen and (min-width: 900px) {
@@ -105,12 +145,6 @@
     outline: 0px;
     font-size: large;
     padding-left: 10px;
-  }
-
-  .home-searchbar-icon1 {
-    width: 100%;
-    height: 45px;
-    font-size: 30px;
   }
 
   .home-searchbar-row {
@@ -131,9 +165,7 @@
   }
 
   .home-searchbar-icon1 {
-    width: 100%;
-    height: 45px;
-    font-size: 30px;
+    font-size: "16px";
   }
 
   .home-searchbar-row {
@@ -141,6 +173,10 @@
     width: 100%;
     height: 100%;
     padding-left: 10px;
+  }
+
+  .home-daterange-picker {
+    display: flex;
   }
 }
 
