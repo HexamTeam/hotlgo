@@ -84,7 +84,7 @@ const Home = () => {
                                         
                                     </tbody>
                                 </table>
-                                <div><SearchOutlined className='home-searchbar-icon2'/></div>
+                                <div className='home-searchbar-max-thirddiv-div'><SearchOutlined className='home-searchbar-icon2'/></div>
                             </div>
                         </div>
 

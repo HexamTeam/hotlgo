@@ -154,10 +154,28 @@
     }
     .home-searchbar-max-thirddiv table{
         margin-left: 100px;
+        position: absolute;
     }
     .home-searchbar-icon2{
+        margin-top: 15px;
+        
+    }
+    .home-searchbar-max-thirddiv-div{
+        border-radius: 25px;
+        margin-left: 25%;
+        margin-right: 20%;
+        margin-top: 1%;
+        font-size: large;
+        width: 45px;
+        height: 45px;
+        background-color: rgb(40, 245, 177);
+        position: absolute;
 
     }
+    .home-searchbar-max-thirddiv-div:hover{
+        background-color:rgb(67, 148, 114);
+    }
+
     
 } 
 
