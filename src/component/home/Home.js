@@ -1,14 +1,9 @@
 import '../../css/rootcss/home.css';
-// import SearchIcon from '@mui/icons-material/Search';
-
-// import TextField from '@mui/material/TextField';
-// import DateRangePicker from '@mui/lab/DateRangePicker';
-// import AdapterDateFns from '@mui/lab/AdapterDateFns';
-// import LocalizationProvider from '@mui/lab/LocalizationProvider';
-// import Box from '@mui/material/Box';
+// import 'antd/dist/antd.css';
+import 'antd/dist/antd.min.css';
 import {SearchOutlined} from '@ant-design/icons';
 import { DatePicker, Space } from 'antd';
-import moment from 'moment';
+//import moment from 'moment';
 
 
 
@@ -17,18 +12,18 @@ const Home = () => {
 
     const { RangePicker } = DatePicker;
 
-    const dateFormat = 'YYYY/MM/DD';
-    const weekFormat = 'MM/DD';
-    const monthFormat = 'YYYY/MM';
+    // const dateFormat = 'YYYY/MM/DD';
+    // const weekFormat = 'MM/DD';
+    // const monthFormat = 'YYYY/MM';
 
-    const dateFormatList = ['DD/MM/YYYY', 'DD/MM/YY'];
+    // const dateFormatList = ['DD/MM/YYYY', 'DD/MM/YY'];
 
-    const customFormat = value => `custom format: ${value.format(dateFormat)}`;
+    // const customFormat = value => `custom format: ${value.format(dateFormat)}`;
 
-    const customWeekStartEndFormat = value =>
-    `${moment(value).startOf('week').format(weekFormat)} ~ ${moment(value)
-    .endOf('week')
-    .format(weekFormat)}`;
+    // const customWeekStartEndFormat = value =>
+    // `${moment(value).startOf('week').format(weekFormat)} ~ ${moment(value)
+    // .endOf('week')
+    // .format(weekFormat)}`;
 
     return(
         <>           
@@ -69,7 +64,10 @@ const Home = () => {
                                             defaultValue={[moment('2015/01/01', dateFormat), moment('2015/01/01', dateFormat)]}
                                             format={dateFormat}
                                             /> */}
-                                            <RangePicker style={{display:"flex"}}/>
+                                            {/* <Space direction="vertical" size={12}> */}
+                                                <RangePicker style={{display:"flex"}}/>
+                                            {/* </Space> */}
+                                            
                                         
                                         </td>
                                         </tr>
@@ -78,13 +76,15 @@ const Home = () => {
                                 </table>
                             </div>
                             <div className='home-searchbar-max-thirddiv'>
+                                            
                                 <table>
                                     <tbody>
                                         <tr><div className='home-searchbar-location-text'>Guest Room</div></tr>
-                                        <tr><div>2 adults . 1 room</div></tr>
+                                        <tr><div className='home-search-thirddiv-2ndtr'>2 adults . 1 room</div></tr>
                                         
                                     </tbody>
                                 </table>
+                                <div className='home-searchbar-max-thirddiv-div'><SearchOutlined className='home-searchbar-icon2'/></div>
                             </div>
                         </div>
 
