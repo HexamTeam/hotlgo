@@ -76,6 +76,7 @@
   .home-searchbar-max {
     border-radius: 32px;
     background: white;
+
     margin-left: -15px;
     margin-right: -15px;
     position: absolute;
@@ -83,6 +84,7 @@
     left: 15%;
     width: 75%;
     height: 70px;
+
     display: block;
   }
 
@@ -90,6 +92,8 @@
     display: flex;
     width: 100%;
     height: 100%;
+
+
   }
 
   .home-searchbar-input-text1 {
