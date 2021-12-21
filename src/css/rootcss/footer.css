@@ -1,3 +1,11 @@
+.foo-main {
+  padding-top: 100px;
+  box-sizing: border-box;
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
 @media (min-width: 600px) {
   .footer-callout-container {
     display: flex;
@@ -6,6 +14,7 @@
     justify-content: center;
     -webkit-box-align: center;
     align-items: center;
+    margin-bottom: 4rem;
   }
 }
 @media (max-width: 600px) {
@@ -284,8 +293,6 @@
 }
 
 .footer-mobile-container {
-  margin-left: -15px;
-  margin-right: -15px;
   row-gap: 0px;
   box-sizing: border-box;
   display: flex;
@@ -332,7 +339,7 @@
 .footer-lft-important-sec {
   padding: 20px 20px;
   display: flex;
-  padding-right: 50px;
+  padding-right: 10px;
 }
 
 .footer-lft-important-seco {
@@ -342,9 +349,9 @@
 }
 
 .footer-lft-important-sec2 {
-  padding: 20px 10px;
+  padding: 20px 50px;
   display: flex;
-  padding-right: 50px;
+  padding-right: 10px;
 }
 
 .foo-glblimg {
@@ -414,6 +421,7 @@
   background-size: contain;
   height: 45px;
   width: 45px;
+  margin-left: 5px;
 }
 
 .foo-dedicated-img {
@@ -421,6 +429,7 @@
   background-size: contain;
   height: 45px;
   width: 45px;
+  padding-right: 20px;
 }
 
 .foo-batn-sect {
