@@ -14,7 +14,7 @@ import QrIcon from "../../resources/icon/QR.PNG";
 
 const Footer = () => {
     return(
-        <footer>
+        <footer className="foo-main">
             <div className="footer-mobile-container">
                 <div className="footer-mobile-left">
                     <div className="footer-lft-important-seco">
