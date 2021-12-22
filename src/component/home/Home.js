@@ -33,29 +33,7 @@ const Home = () => {
                  setSearch_hide(true);
             }  
           };
-          // make css with increase font size
-        //   window.onscroll = function() {scrollFunction()};
-
-        //   function scrollFunction() {
-        //     if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-        //       document.getElementById("header").style.width = "30%";
-        //     } else {
-        //       document.getElementById("header").style.width = "75%";
-        //     }
-        //   }
-
-    // const dateFormat = 'YYYY/MM/DD';
-    // const weekFormat = 'MM/DD';
-    // const monthFormat = 'YYYY/MM';
-
-    // const dateFormatList = ['DD/MM/YYYY', 'DD/MM/YY'];
-
-    // const customFormat = value => `custom format: ${value.format(dateFormat)}`;
-
-    // const customWeekStartEndFormat = value =>
-    // `${moment(value).startOf('week').format(weekFormat)} ~ ${moment(value)
-    // .endOf('week')
-    // .format(weekFormat)}`;
+     
 
     return(
         <>           
@@ -74,8 +52,8 @@ const Home = () => {
                             <div className='home-searchbar-max-firstdiv'>
                                 <table>
                                     <tbody>
-                                        <tr><div className='home-searchbar-location-text' >Location</div></tr>
-                                        <tr><input type='text' className='home-searchbar-input-text1' placeholder="Where do want to go... "/></tr>
+                                        <tr><td><div className='home-searchbar-location-text' >Location</div></td></tr>
+                                        <tr><td><div><input type='text' className='home-searchbar-input-text1' placeholder="Where do want to go... "/></div></td></tr>
                                     </tbody>
                                 </table>
                             </div>
@@ -111,8 +89,8 @@ const Home = () => {
                                             
                                 <table>
                                     <tbody>
-                                        <tr><div className='home-searchbar-location-text'>Guest Room</div></tr>
-                                        <tr><div className='home-search-thirddiv-2ndtr'>2 adults . 1 room</div></tr>
+                                        <tr><td><div className='home-searchbar-location-text'>Guest Room</div></td></tr>
+                                        <tr><td><div className='home-search-thirddiv-2ndtr'>2 adults . 1 room</div></td></tr>
                                         
                                     </tbody>
                                 </table>
