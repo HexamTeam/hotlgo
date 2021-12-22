@@ -3,6 +3,7 @@ import '../../css/rootcss/home.css';
 import 'antd/dist/antd.min.css';
 import {SearchOutlined} from '@ant-design/icons';
 import { DatePicker, Space } from 'antd';
+import React from 'react';
 //import moment from 'moment';
 
 
@@ -11,6 +12,39 @@ import { DatePicker, Space } from 'antd';
 const Home = () => {
 
     const { RangePicker } = DatePicker;
+
+    const [search_hide,setSearch_hide] = React.useState(true);
+
+    const [scrollcount,setScrollCount] = React.useState(0);
+
+    React.useEffect(()=>{
+        window.addEventListener("scroll", listenToScroll);
+        return () => 
+            window.removeEventListener("scroll", listenToScroll); 
+        },[]);
+
+        const listenToScroll = () => {
+            let heightToHideFrom = 10;
+            const winScroll = document.body.scrollTop || 
+                document.documentElement.scrollTop;
+               
+            if (winScroll > heightToHideFrom) { 
+               search_hide &&      // to limit setting state only the first time         
+                 setSearch_hide(false);
+            } else {
+                 setSearch_hide(true);
+            }  
+          };
+
+    const scrollhide = () => {   
+        setScrollCount(scrollcount+1);
+        console.log(scrollcount);
+        console.log("hi")
+        if(scrollcount>1){
+            setSearch_hide(false);
+        }
+
+    }
 
     // const dateFormat = 'YYYY/MM/DD';
     // const weekFormat = 'MM/DD';
@@ -28,7 +62,7 @@ const Home = () => {
     return(
         <>           
         
-            <div className="home-headerimg">
+            <div onScroll={scrollhide} className="home-headerimg">
             {/* <Headericon/> */}
                 <center>
                     <div className='home-searchbar-mini'>
@@ -37,12 +71,12 @@ const Home = () => {
                             <div><input type='text' className='home-searchbar-input-text' placeholder="Hi, Where do want to go... "/></div>
                         </div>                       
                     </div>  
-                    <div className='home-searchbar-max'>
+                    {search_hide?<div className='home-searchbar-max'>
                         <div className='home-searchbar-max-row'>
                             <div className='home-searchbar-max-firstdiv'>
                                 <table>
                                     <tbody>
-                                        <tr><div className='home-searchbar-location-text'>Location</div></tr>
+                                        <tr><div className='home-searchbar-location-text' >Location</div></tr>
                                         <tr><input type='text' className='home-searchbar-input-text1' placeholder="Where do want to go... "/></tr>
                                     </tbody>
                                 </table>
@@ -88,7 +122,7 @@ const Home = () => {
                             </div>
                         </div>
 
-                    </div>                  
+                    </div>  :<div></div>}                
                 </center>                 
             </div> 
                       
