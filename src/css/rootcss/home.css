@@ -215,5 +215,8 @@
     display: flex;
   }
 }
+.ant-calendar {
+  background-color: aquamarine;
+}
 
 /*# sourceMappingURL=home.css.map */

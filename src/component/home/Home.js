@@ -75,7 +75,10 @@ const Home = () => {
                                             format={dateFormat}
                                             /> */}
                                             {/* <Space direction="vertical" size={12}> */}
-                                                <RangePicker style={{display:"flex"}}/>
+                                                <RangePicker 
+                                                style={{display:"flex"}}
+                                                //popupStyle={{borderRadius:"60px",backgroundColor:"Green"}}
+                                                />
                                             {/* </Space> */}
                                             
                                         

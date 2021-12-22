@@ -1,0 +1,61 @@
+.ant-tabs-ink-bar {
+    position: absolute;
+    background:aquamarine;
+    pointer-events: none;
+    border-bottom: 6px aquamarine solid !important;
+    z-index: 2;;
+    
+    
+ }
+
+ .ant-tabs-tab-btn {
+    color: #363636 !important; 
+    font-weight: 400;
+    font-family: Poppins, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-shadow: rgb(0 0 0 / 0%) 1px 1px 1px;
+    -webkit-tap-highlight-color: transparent;
+    font-family: Poppins, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-shadow: rgb(0 0 0 / 0%) 1px 1px 1px;
+    -webkit-tap-highlight-color: transparent;
+    font-size: 20px;
+ }
+
+ .tabpane-div-main{
+    display: flex;
+    width: 100%;
+ }
+
+ .tabpanr-image-div{
+    width: 60%;
+    padding-right: 30px;
+    background-size: cover;
+ }
+
+ .tab-pane-image-container{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+ }
+
+ .tabpane-div-text{
+    display: grid;
+    width: 40%;
+    text-align: left;
+    padding: 40px 0px;
+ }
+
+ .tabpane-div-text-header{
+
+    color: rgb(88, 87, 87);
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+.tabpane-div-text-content{
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 12px;
+}
