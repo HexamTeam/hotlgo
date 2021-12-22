@@ -1,14 +1,7 @@
 import '../../css/rootcss/destination.css';
 import 'antd/dist/antd.min.css';
 import { Layout } from 'antd';
-import LImg from "../../resources/Image/DestinationComp/LondonImg.jpg";
-import NwImg from "../../resources/Image/DestinationComp/NewyorkImg.jpg";
-import RmImg from "../../resources/Image/DestinationComp/RomeImg.jpg";
-import RmImg1 from "../../resources/Image/DestinationComp/RomeImg2.jpg";
-import BrlnImg from "../../resources/Image/DestinationComp/BerlinImg.jpg";
-import VienaImg from "../../resources/Image/DestinationComp/ViennaImg.jpg";
-import BarclonaImg from "../../resources/Image/DestinationComp/BarcelonaImg.jpg";
-import mdridImg from "../../resources/Image/DestinationComp/MadridImg.jpg";
+import LImg from '../../resources/Image/LondonImg.jpg';
 
 const Destination = () => {
 
@@ -44,7 +37,7 @@ const Destination = () => {
                         <div className='destination-div1-img1'>
                                 <div className='destination-div2-img1'>
                                     <div className='destination-div3-img1'>
-                                        <img src={NwImg} alt="london" className='destination-div3-img1-tag'/>
+                                        <img src={LImg} alt="london" className='destination-div3-img1-tag'/>
 
                                     </div>
 
@@ -52,7 +45,7 @@ const Destination = () => {
                             </div>
                         </div>
                         <div className='destination-antlayout-content-grid-item-content'>
-                        <h3>New York</h3>
+                        <h3>London</h3>
                             <span>6.5 hour drive</span>
                         </div>
                     </div>
@@ -62,7 +55,7 @@ const Destination = () => {
                         <div className='destination-div1-img1'>
                                 <div className='destination-div2-img1'>
                                     <div className='destination-div3-img1'>
-                                        <img src={RmImg} alt="london" className='destination-div3-img1-tag'/>
+                                        <img src={LImg} alt="london" className='destination-div3-img1-tag'/>
 
                                     </div>
 
@@ -70,7 +63,7 @@ const Destination = () => {
                             </div>
                         </div>
                         <div className='destination-antlayout-content-grid-item-content'>
-                            <h3>Rome</h3>
+                            <h3>London</h3>
                             <span>6.5 hour drive</span>
                         </div>
                     </div>
@@ -80,7 +73,7 @@ const Destination = () => {
                         <div className='destination-div1-img1'>
                                 <div className='destination-div2-img1'>
                                     <div className='destination-div3-img1'>
-                                        <img src={RmImg1} alt="london" className='destination-div3-img1-tag'/>
+                                        <img src={LImg} alt="london" className='destination-div3-img1-tag'/>
 
                                     </div>
 
@@ -88,7 +81,7 @@ const Destination = () => {
                             </div>
                         </div>
                         <div className='destination-antlayout-content-grid-item-content'>
-                            <h3>Rome</h3>
+                            <h3>London</h3>
                             <span>6.5 hour drive</span>
                         </div>
                     </div>
@@ -98,7 +91,7 @@ const Destination = () => {
                         <div className='destination-div1-img1'>
                                 <div className='destination-div2-img1'>
                                     <div className='destination-div3-img1'>
-                                        <img src={BrlnImg} alt="london" className='destination-div3-img1-tag'/>
+                                        <img src={LImg} alt="london" className='destination-div3-img1-tag'/>
 
                                     </div>
 
@@ -106,7 +99,7 @@ const Destination = () => {
                             </div>
                         </div>
                         <div className='destination-antlayout-content-grid-item-content'>
-                            <h3>Berlin</h3>
+                            <h3>London</h3>
                             <span>6.5 hour drive</span> 
                         </div>
                     </div>
@@ -116,7 +109,7 @@ const Destination = () => {
                         <div className='destination-div1-img1'>
                                 <div className='destination-div2-img1'>
                                     <div className='destination-div3-img1'>
-                                        <img src={VienaImg} alt="london" className='destination-div3-img1-tag'/>
+                                        <img src={LImg} alt="london" className='destination-div3-img1-tag'/>
 
                                     </div>
 
@@ -124,7 +117,7 @@ const Destination = () => {
                             </div>
                         </div>
                         <div className='destination-antlayout-content-grid-item-content'>
-                            <h3>Vienna</h3>
+                            <h3>London</h3>
                             <span>6.5 hour drive</span>
                         </div>
                     </div>
@@ -134,7 +127,7 @@ const Destination = () => {
                         <div className='destination-div1-img1'>
                                 <div className='destination-div2-img1'>
                                     <div className='destination-div3-img1'>
-                                        <img src={BarclonaImg} alt="london" className='destination-div3-img1-tag'/>
+                                        <img src={LImg} alt="london" className='destination-div3-img1-tag'/>
 
                                     </div>
 
@@ -142,7 +135,7 @@ const Destination = () => {
                             </div>
                         </div>
                         <div className='destination-antlayout-content-grid-item-content'>
-                            <h3>Barcelona</h3>
+                            <h3>London</h3>
                             <span>6.5 hour drive</span>
                         </div>
                     </div>
@@ -152,7 +145,7 @@ const Destination = () => {
                         <div className='destination-div1-img1'>
                                 <div className='destination-div2-img1'>
                                     <div className='destination-div3-img1'>
-                                        <img src={mdridImg} alt="london" className='destination-div3-img1-tag'/>
+                                        <img src={LImg} alt="london" className='destination-div3-img1-tag'/>
 
                                     </div>
 
@@ -160,7 +153,7 @@ const Destination = () => {
                             </div>
                         </div>
                         <div className='destination-antlayout-content-grid-item-content'>
-                            <h3>Madrid</h3>
+                            <h3>London</h3>
                             <span>6.5 hour drive</span>
                         </div>
                     </div>
