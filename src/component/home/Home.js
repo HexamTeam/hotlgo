@@ -2,7 +2,7 @@ import '../../css/rootcss/home.css';
 // import 'antd/dist/antd.css';
 import 'antd/dist/antd.min.css';
 import {SearchOutlined} from '@ant-design/icons';
-import { DatePicker, Space } from 'antd';
+import { DatePicker } from 'antd';
 import React from 'react';
 //import moment from 'moment';
 
@@ -15,13 +15,11 @@ const Home = () => {
 
     const [search_hide,setSearch_hide] = React.useState(true);
 
-    const [scrollcount,setScrollCount] = React.useState(0);
-
     React.useEffect(()=>{
         window.addEventListener("scroll", listenToScroll);
         return () => 
             window.removeEventListener("scroll", listenToScroll); 
-        },[]);
+        });
 
         const listenToScroll = () => {
             let heightToHideFrom = 10;
@@ -35,16 +33,16 @@ const Home = () => {
                  setSearch_hide(true);
             }  
           };
+          // make css with increase font size
+        //   window.onscroll = function() {scrollFunction()};
 
-    const scrollhide = () => {   
-        setScrollCount(scrollcount+1);
-        console.log(scrollcount);
-        console.log("hi")
-        if(scrollcount>1){
-            setSearch_hide(false);
-        }
-
-    }
+        //   function scrollFunction() {
+        //     if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+        //       document.getElementById("header").style.width = "30%";
+        //     } else {
+        //       document.getElementById("header").style.width = "75%";
+        //     }
+        //   }
 
     // const dateFormat = 'YYYY/MM/DD';
     // const weekFormat = 'MM/DD';
@@ -62,16 +60,16 @@ const Home = () => {
     return(
         <>           
         
-            <div onScroll={scrollhide} className="home-headerimg">
+            <div className="home-headerimg">
             {/* <Headericon/> */}
                 <center>
-                    <div className='home-searchbar-mini'>
+                    {search_hide?<div className='home-searchbar-mini'>
                         <div className='home-searchbar-row'>
                             <div><SearchOutlined className='home-searchbar-icon1'/></div>
                             <div><input type='text' className='home-searchbar-input-text' placeholder="Hi, Where do want to go... "/></div>
                         </div>                       
-                    </div>  
-                    {search_hide?<div className='home-searchbar-max'>
+                    </div> :<div></div>}
+                    {search_hide?<div id="header" className='home-searchbar-max'>
                         <div className='home-searchbar-max-row'>
                             <div className='home-searchbar-max-firstdiv'>
                                 <table>
