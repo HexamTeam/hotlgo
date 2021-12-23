@@ -4,6 +4,7 @@ import Headericon from './component/header/Headericon';
 import Chg from './component/home/Chg';
 import Destination from './component/home/Destination';
 import Home from './component/home/Home';
+import Sbptype from './component/home/Sbptype';
 import TopDeal from './component/home/TopDeal';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Headericon/>
       <Home/> 
       <Destination/>
+      <Sbptype/>
       <Chg/>
       
       <TopDeal />
