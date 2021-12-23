@@ -20,10 +20,14 @@
   font-size: 20px;
 }
 
-@media only screen and (min-width: 690) {
+@media only screen and (min-width: 690px) {
   .tabpane-div-main {
     display: flex;
-    width: 100%;
+    width: 80%;
+    vertical-align: middle;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    background-color: white;
   }
 
   .tabpanr-image-div {
@@ -35,7 +39,12 @@
   .tab-pane-image-container {
     width: 100%;
     height: 100%;
+    -webkit-font-smoothing: antialiased;
     border-radius: 20px;
+    vertical-align: middle;
+    border-style: none;
+    max-width: 100%;
+    min-width: 80%;
   }
 
   .tabpane-div-text {
@@ -50,6 +59,62 @@
     font-size: 25px;
     font-weight: 500;
     margin-bottom: 12px;
+  }
+
+  .tabpane-div-text-content {
+    color: black;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 12px;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 690px) {
+  .tabpane-div-main {
+    display: grid;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    background-color: whitesmoke;
+  }
+
+  .tabpanr-image-div {
+    width: 100%;
+    background-size: cover;
+    height: 100%;
+  }
+
+  .tab-pane-image-container {
+    width: 80%;
+    height: 200px;
+    max-height: 120%;
+    border-radius: 20px;
+    vertical-align: middle;
+    border-style: none;
+    max-width: 100%;
+    min-width: 80%;
+  }
+
+  .tabpane-div-text {
+    display: grid;
+    width: 100%;
+    vertical-align: middle;
+    padding: 40px 0px;
+  }
+
+  .tabpane-div-text-header {
+    color: #585757;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 12px;
+  }
+
+  .tabpane-maindiv-text-content {
+    width: 60%;
+    height: 100%;
+    vertical-align: middle;
+    margin-left: 20%;
+    text-align: left;
   }
 
   .tabpane-div-text-content {
