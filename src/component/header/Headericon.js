@@ -1,11 +1,12 @@
 import logo from '../../resources/icon/LogoImg.jpg';
 import '../../css/rootcss/headericon-btn.css';
-import React from "react";
+// import React from "react";
 import {MenuOutlined} from '@ant-design/icons';
 // import 'antd/dist/antd.css';
 import 'antd/dist/antd.min.css';
-import { Menu, Dropdown } from 'antd';
-import { UserOutlined } from '@ant-design/icons';
+import { Menu, Dropdown,Drawer, Button} from 'antd';
+import { UserOutlined,CloseOutlined  } from '@ant-design/icons';
+import React, { useState } from 'react';
 
 
 const Headericon = () => {
@@ -20,6 +21,16 @@ const Headericon = () => {
           
         </Menu>
       );
+
+      const [visible, setVisible] = useState(false);
+
+      const showDrawer = () => {
+        setVisible(true);
+      };
+
+      const onClose = () => {
+        setVisible(false);
+      };
 
     
     return(
@@ -42,8 +53,33 @@ const Headericon = () => {
         </Dropdown>        
         </div>
 
+
+        <div className='header-menuicon-button'>
+        
+        {/* <Button type="primary" onClick={showDrawer}> */}
+        <MenuOutlined onClick={showDrawer}/>
+        {/* </Button> */}
+     
+      <Drawer  width="40%" placement="right" onClose={onClose} visible={visible} closable={false} >
+        
+      <CloseOutlined height="30px" onClick={onClose} className='header-closeoutlined '/><br/>
+      <div  className='header-signin-btn'>
+
+       
+        <button className='header-sign-btn' >Sign in</button>
+       
+       
+        <button className='header-signup-btn'>Sign up</button>
+        
+        </div>
+      </Drawer>
+        
+    
         </div>
         </div>
+        </div>
+
+        
     )
 }
 

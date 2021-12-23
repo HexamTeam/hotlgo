@@ -101,35 +101,129 @@
   box-sizing: border-box;
 }
 
-.header-avatraicon {
-  background-color: white;
-  font-size: 15px;
-  padding: 7px;
-  border-radius: 50%;
-}
+@media only screen and (min-width: 990px) {
+  .header-avatraicon-btn {
+    border-radius: 50px;
+    height: 40px;
+    width: 80px;
+    background-color: #a2a1a3;
+    float: right;
+    cursor: pointer;
+    border: 0px solid #f7f3f4;
+    border-color: #ef2400;
+  }
 
-.header-menuicon {
-  font-size: 20px;
-  color: whitesmoke;
-  padding-right: 6px;
-  padding-top: 5px;
-}
+  .header-avatraicon-btn-padding {
+    padding-right: 50px;
+    width: 10%;
+    position: absolute;
+    right: 0.5%;
+    padding-top: 15px;
+  }
 
-.header-avatraicon-btn {
-  border-radius: 50px;
-  height: 40px;
-  width: 80px;
-  background-color: #a2a1a3;
-  float: right;
-  cursor: pointer;
-}
+  .header-avatraicon {
+    background-color: white;
+    font-size: 15px;
+    padding: 7px;
+    border-radius: 50%;
+  }
 
-.header-avatraicon-btn-padding {
-  padding-right: 50px;
-  width: 10%;
-  position: absolute;
-  right: 0.5%;
-  padding-top: 15px;
+  .header-menuicon {
+    font-size: 20px;
+    color: whitesmoke;
+    padding-right: 6px;
+    padding-top: 5px;
+  }
+}
+@media only screen and (max-width: 990px) {
+  .header-avatraicon-btn {
+    border-radius: 50px;
+    height: 40px;
+    width: 80px;
+    background-color: #a2a1a3;
+    float: right;
+    cursor: pointer;
+  }
+
+  .header-avatraicon-btn-padding {
+    display: none;
+    padding-right: 50px;
+    width: 10%;
+    position: absolute;
+    right: 0.5%;
+    padding-top: 15px;
+  }
+
+  .header-avatraicon {
+    background-color: white;
+    font-size: 15px;
+    padding: 7px;
+    border-radius: 50%;
+  }
+
+  .header-menuicon {
+    font-size: 20px;
+    color: whitesmoke;
+    padding-right: 6px;
+    padding-top: 5px;
+  }
+}
+@media only screen and (max-width: 990px) {
+  .header-menuicon-button {
+    background-color: white;
+    float: right;
+    padding-top: 2%;
+    padding-right: 3%;
+    font-size: 20px;
+  }
+
+  .header-closeoutlined {
+    float: right;
+    font-size: 18px;
+    color: #00EFAC;
+    margin-bottom: 3%;
+  }
+
+  .header-sidemenu-padding {
+    width: 100%;
+    background-color: #ef2400;
+    height: 80px;
+  }
+
+  .header-signin-btn {
+    padding: 25px 20px;
+    background-color: #f7f7f7;
+    height: 15%;
+    width: auto;
+  }
+
+  .header-sign-btn {
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 3%;
+    margin-left: 5%;
+    border: none;
+    font-weight: bold;
+    background-color: #f7f7f7;
+  }
+
+  .header-signup-btn {
+    font-size: 18px;
+    border-radius: 5%;
+    cursor: pointer;
+    background-color: #00EFAC;
+    border: none;
+    color: #f3efef;
+    font-family: "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: bold;
+    padding: 7px 17px;
+  }
+}
+@media only screen and (min-width: 990px) {
+  .header-menuicon-button {
+    border-radius: 50px;
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=headericon-btn.css.map */
