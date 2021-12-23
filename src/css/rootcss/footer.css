@@ -503,6 +503,7 @@
 }
 
 .foo-appstore-batn {
+  margin-left: 80px;
   background-size: contain;
   background-repeat: no-repeat;
   cursor: pointer;
@@ -516,6 +517,7 @@
 }
 
 .foo-gplay-batn {
+  margin-left: 80px;
   background-size: contain;
   background-repeat: no-repeat;
   cursor: pointer;
