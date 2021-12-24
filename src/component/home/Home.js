@@ -62,6 +62,9 @@ const Home = () => {
                                     </tbody>
                                 </table>
                             </div>
+                            {/* <div className='home-search-vl'> */}
+
+                            {/* </div> */}
                             <div className='home-searchbar-max-secondiv'>
                                 <table>
                                     <tbody>

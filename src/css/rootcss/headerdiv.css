@@ -6,6 +6,14 @@
   background-color: white;
 }
 
+.headerdiv-main-whitespace-transparant {
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  z-index: 1;
+  background-color: transparent;
+}
+
 @media only screen and (min-width: 990px) {
   .headerdiv-main-whitespace-semidiv-one {
     width: 95%;
@@ -208,6 +216,11 @@
   }
 }
 @media only screen and (max-width: 990px) {
+  .headerdiv-signin-btn-transperant-space {
+    height: 17px;
+    width: 100%;
+  }
+
   .headerdiv-main-whitespace-semidiv-one {
     width: 95%;
     height: 80px;
@@ -340,17 +353,30 @@
     font-size: 30;
   }
 
+  .ant-drawer-body {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .headerdiv-closeoutline-padding {
+    float: right;
+    padding-right: 20px;
+    width: 20px;
+    height: 20px;
+  }
+
   .headerdiv-closeoutlined {
     float: right;
     font-size: 18px;
-    color: #00EFAC;
+    color: #070707;
     margin-bottom: 3%;
   }
 
   .headerdiv-signin-btn {
-    background-color: #f0eaea;
+    background-color: #f7f7f7;
     height: 15%;
     width: 100%;
+    top: 20px;
   }
 
   .headerdiv-sign-btn {
