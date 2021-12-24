@@ -62,15 +62,15 @@ const Home = () => {
                                     </tbody>
                                 </table>
                             </div>
-                            {/* <div className='home-search-vl'> */}
+                            <div className='home-search-vl'>
 
-                            {/* </div> */}
+                            </div>
                             <div className='home-searchbar-max-secondiv'>
                                 <table>
                                     <tbody>
                                         <tr>
                                             <td>
-                                                <div className='home-searchbar-location-text'>Check In</div>
+                                                <div className='home-searchbar-location-text1'>Check In</div>
                                             </td>
                                             <td>
                                                 <div className='home-searchbar-location-text'>Check Out</div>
@@ -86,7 +86,7 @@ const Home = () => {
                                                 <RangePicker
                                                 
                                                 bordered={false}
-                                                
+                                                suffixIcon={null}                                               
                                                 
                                                 style={{display:"flex",border:"none"}}
                                                 
@@ -100,6 +100,9 @@ const Home = () => {
                                         
                                     </tbody>
                                 </table>
+                            </div>
+                            <div className='home-search-vl'>
+                                
                             </div>
                             <div className='home-searchbar-max-thirddiv'>
                                             
