@@ -86,12 +86,17 @@ const Home = () => {
                                                 <RangePicker
                                                 
                                                 bordered={false}
-                                                suffixIcon={null}                                               
+                                                suffixIcon={null}      
+                                                superNextIcon={null}
+                                                superPrevIcon={null}
+                                                separator={null}        
+                                            //     popupStyle={{borderRadius:"25px",backgroundColor:"rgb(255, 255, 255)",paddingLeft:"15px",
+                                            // paddingRight:"15px"}}                                 
                                                 
-                                                style={{display:"flex",border:"none"}}
+                                                style={{display:"flex",border:"none",}}
                                                 
                                                 //popupStyle={{borderRadius:"60px",backgroundColor:"Green"}}
-                                                ></RangePicker> 
+                                                >|</RangePicker> 
                                             {/* </Space> */}
                                             
                                         
