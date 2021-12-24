@@ -7,6 +7,14 @@
     
     
 }
+.headerdiv-main-whitespace-transparant{
+    width:100%;
+    height: 80px;
+    position: fixed;
+    z-index: 1;
+    background-color: transparent;
+    
+}
 
 @media only screen and(min-width:990px){
     .headerdiv-main-whitespace-semidiv-one{
@@ -216,6 +224,11 @@
 }
 
 @media only screen and(max-width:990px){
+    .headerdiv-signin-btn-transperant-space{
+        height: 17px;
+        width: 100%;
+        //background-color: antiquewhite;
+    }
     .headerdiv-main-whitespace-semidiv-one{
         width:95%;
         height:80px;
@@ -344,19 +357,31 @@
         color:#00EFAC;
         font-size: 30;
     }
+    .ant-drawer-body {
+        
+        padding-left: 0px;
+        padding-right: 0px;
+    }
     
+    .headerdiv-closeoutline-padding{
+        float: right; 
+        padding-right: 20px;
+        width: 20px;
+        height: 20px;
+    }
     .headerdiv-closeoutlined{
         float: right; 
         font-size: 18px;
-        color: #00EFAC;
+        color: #070707;
         // margin-right: 3%;
         margin-bottom: 3%;
     }
     .headerdiv-signin-btn{
         //padding:25px 20px;
-        background-color: rgb(240, 234, 234);
+        background-color: rgb(247,247,247);
         height: 15%;
         width:100%;
+        top:20px;
     }
     .headerdiv-sign-btn{
         font-size: 16px;
@@ -366,6 +391,7 @@
         border: none;
         font-weight: bold;
         background-color:rgb(247,247,247);
+        
     }
     .headerdiv-signup-btn{
         font-size: 18px;

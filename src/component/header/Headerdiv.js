@@ -35,11 +35,32 @@ const Headerdiv = () => {
         setVisible(false);
       };
 
+    //   React.useEffect(()=>{
+    //         window.addEventListener("scroll",myFunction);
+    //         return()=>{
+    //             window.removeEventListener("scroll",myFunction);
+    //         }
+    //     })
 
-      
+    //window.addEventListener("scroll", myFunction);
+
+    // function myFunction(el) {
+        
+    //     if(searchVisible===true){
+    //         //document.getElementById("demo").style.color = "blue";
+    //         console.log(true);
+    //         el.className="headerdiv-main-whitespace-transparant";
+    //     }else{
+    //         console.log(false);
+    //         el.className="headerdiv-main-whitespace";
+    //     }
+        
+    // }
+    let div_class = searchVisible? "headerdiv-main-whitespace" : "headerdiv-main-whitespace-transparant" ;
+
 
     return(
-        <div className="headerdiv-main-whitespace">
+        <div className={div_class} >
             <center>
                 <div className='headerdiv-main-whitespace-semidiv-one'>
                     <div className='headerdiv-main-whitespace-semidiv-one-space-maker'></div>
@@ -82,8 +103,15 @@ const Headerdiv = () => {
                                     <MenuOutlined onClick={showDrawer} className='headerdiv-menuicon-icon'/>
                                     </Button>
                                     <Drawer  width="80%" placement="right" onClose={onClose} visible={visible} closable={false} >
-                                    <CloseOutlined height="30px" onClick={onClose} className='headerdiv-closeoutlined'/><br/>
-                                    <div  className='headerdiv-signin-btn'>                                    
+                                    <div className='headerdiv-closeoutline-padding'>
+                                        <CloseOutlined height="30px" onClick={onClose} className='headerdiv-closeoutlined'/>
+                                    </div>
+                                    
+                                    
+                                    <br/>
+                                    <div className='headerdiv-signin-btn-transperant-space'></div>
+                                    <div  className='headerdiv-signin-btn'>    
+                                        <div className='headerdiv-signin-btn-transperant-space'></div>                                
                                         <button className='headerdiv-sign-btn' >Sign in</button>                                 
                                         <button className='headerdiv-signup-btn'>Sign up</button>
                                         </div>
