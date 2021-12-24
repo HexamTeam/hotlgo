@@ -20,6 +20,20 @@
   -webkit-font-smoothing: antialiased;
 }
 
+@media (max-width: 390px) {
+  .destination-antlayout-header {
+    background-color: whitesmoke;
+    text-align: left;
+    font-size: 1rem;
+    line-height: 2.25rem;
+    font-weight: 600;
+    max-width: 100%;
+    margin-bottom: 3rem;
+    color: #313131;
+    font-family: Poppins, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+}
 .destination-antlayout-content {
   background-color: whitesmoke;
   grid-auto-flow: row;

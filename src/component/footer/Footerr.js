@@ -102,10 +102,14 @@ const Footerr = () => {
                 Sign up for travel ideas and tips in your mailbox
                 </p>
                 <div className="footer-class-sec">
+                    
                     <form>
+                    <center>
                         <input className="footer-input-form" type="email" placeholder="Your email address"/>
                         <button type="button" className="footer-button-form">Sign Up</button>
+                    </center>
                     </form>
+                    
                 </div>
             </div>
 
