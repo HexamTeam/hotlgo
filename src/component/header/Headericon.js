@@ -73,7 +73,7 @@ const Headericon = () => {
         <div className='icon-button-pading'> 
         </div>
 
-        {searchVisible?<div className='searchbar-div'><SearchOutlined/><Input bordered={false} placeholder="Hi, Where do you want to go?" /></div>:<div></div>}
+        
 
         
 
@@ -93,7 +93,7 @@ const Headericon = () => {
         <div className='header-menuicon-button'>
         
         {/* <Button type="primary" onClick={showDrawer}> */}
-        <MenuOutlined onClick={showDrawer}/>
+        <MenuOutlined onClick={showDrawer} className='header-menuicon-button-area'/>
         {/* </Button> */}
      
       <Drawer  width="80%" placement="right" onClose={onClose} visible={visible} closable={false} >
