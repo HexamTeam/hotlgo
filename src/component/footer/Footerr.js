@@ -12,7 +12,7 @@ import BokkIcon from "../../resources/icon/BookingHubImg.png";
 import DedictedIcon from "../../resources/icon/DedicatedTeamImg.png";
 import QrIcon from "../../resources/icon/QR.PNG";
 
-const Footer = () => {
+const Footerr = () => {
     return(
         <footer className="foo-main">
             <div className="footer-mobile-container">
@@ -169,4 +169,4 @@ const Footer = () => {
     )
 }
 
-export default Footer
+export default Footerr
