@@ -4,6 +4,7 @@ import 'antd/dist/antd.min.css';
 import {SearchOutlined} from '@ant-design/icons';
 import { DatePicker } from 'antd';
 import React from 'react';
+
 //import moment from 'moment';
 
 
@@ -29,10 +30,14 @@ const Home = () => {
             if (winScroll > heightToHideFrom) { 
                search_hide &&      // to limit setting state only the first time         
                  setSearch_hide(false);
+                 //console.log(search_hide);
             } else {
                  setSearch_hide(true);
-            }  
+                 //console.log(search_hide);
+            }
           };
+
+          //const searchbr = SearchBarVisible();
      
 
     return(
@@ -75,10 +80,15 @@ const Home = () => {
                                             format={dateFormat}
                                             /> */}
                                             {/* <Space direction="vertical" size={12}> */}
-                                                <RangePicker 
-                                                style={{display:"flex"}}
+                                                <RangePicker
+                                                
+                                                bordered={false}
+                                                
+                                                
+                                                style={{display:"flex",border:"none"}}
+                                                
                                                 //popupStyle={{borderRadius:"60px",backgroundColor:"Green"}}
-                                                />
+                                                ></RangePicker> 
                                             {/* </Space> */}
                                             
                                         

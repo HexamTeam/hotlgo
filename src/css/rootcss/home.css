@@ -214,9 +214,10 @@
   .home-daterange-picker {
     display: flex;
   }
-}
-.ant-calendar {
-  background-color: aquamarine;
+
+  .ant-picker-panels {
+    background-color: aqua;
+  }
 }
 
 /*# sourceMappingURL=home.css.map */

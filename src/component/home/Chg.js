@@ -1,10 +1,13 @@
 import { Tabs } from 'antd';
 import '../../css/rootcss/chg.css';
 import ArrivalImg from '../../resources/Image/ContactlessArrivalImg.png'
+//import SearchBarVisible from '../shere/SearchBarVisible';
 
 const Chg = () => {
 
      const { TabPane } = Tabs;
+
+     //const search = SearchBarVisible();
      // contactless arrival / House keeping / Grab N Go
      return(<>
           <Tabs defaultActiveKey="1" size="large" centered>
