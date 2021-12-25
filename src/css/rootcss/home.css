@@ -209,6 +209,13 @@
     padding-left: 10px;
   }
 
+  .ant-calendar-picker-input.ant-input {
+    border-radius: 0px;
+    height: 53px;
+    color: aqua;
+    color: white;
+  }
+
   .home-searchbar-row {
     display: flex;
     width: 80%;
