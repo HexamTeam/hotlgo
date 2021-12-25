@@ -84,12 +84,11 @@ const Home = () => {
                                             /> */}
                                             {/* <Space direction="vertical" size={12}> */}
                                                 <RangePicker
-                                                
                                                 bordered={false}
-                                                suffixIcon={null}                                               
-                                                
-                                                style={{display:"flex",border:"none"}}
-                                                
+                                                suffixIcon={null}      
+                                                superNextIcon={null}
+                                                superPrevIcon={null}
+                                                separator={null}                                                
                                                 //popupStyle={{borderRadius:"60px",backgroundColor:"Green"}}
                                                 ></RangePicker> 
                                             {/* </Space> */}
