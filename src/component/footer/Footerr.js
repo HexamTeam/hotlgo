@@ -12,7 +12,7 @@ import BokkIcon from "../../resources/icon/BookingHubImg.png";
 import DedictedIcon from "../../resources/icon/DedicatedTeamImg.png";
 import QrIcon from "../../resources/icon/QR.PNG";
 
-const Footer = () => {
+const Footerr = () => {
     return(
         <footer className="foo-main">
             <div className="footer-mobile-container">
@@ -102,10 +102,14 @@ const Footer = () => {
                 Sign up for travel ideas and tips in your mailbox
                 </p>
                 <div className="footer-class-sec">
+                    
                     <form>
+                    <center>
                         <input className="footer-input-form" type="email" placeholder="Your email address"/>
                         <button type="button" className="footer-button-form">Sign Up</button>
+                    </center>
                     </form>
+                    
                 </div>
             </div>
 
@@ -169,4 +173,4 @@ const Footer = () => {
     )
 }
 
-export default Footer
+export default Footerr

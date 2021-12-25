@@ -4,6 +4,7 @@ import 'antd/dist/antd.min.css';
 import {SearchOutlined} from '@ant-design/icons';
 import { DatePicker } from 'antd';
 import React from 'react';
+
 //import moment from 'moment';
 
 
@@ -29,10 +30,14 @@ const Home = () => {
             if (winScroll > heightToHideFrom) { 
                search_hide &&      // to limit setting state only the first time         
                  setSearch_hide(false);
+                 //console.log(search_hide);
             } else {
                  setSearch_hide(true);
-            }  
+                 //console.log(search_hide);
+            }
           };
+
+          //const searchbr = SearchBarVisible();
      
 
     return(
@@ -57,12 +62,15 @@ const Home = () => {
                                     </tbody>
                                 </table>
                             </div>
+                            <div className='home-search-vl'>
+
+                            </div>
                             <div className='home-searchbar-max-secondiv'>
                                 <table>
                                     <tbody>
                                         <tr>
                                             <td>
-                                                <div className='home-searchbar-location-text'>Check In</div>
+                                                <div className='home-searchbar-location-text1'>Check In</div>
                                             </td>
                                             <td>
                                                 <div className='home-searchbar-location-text'>Check Out</div>
@@ -75,7 +83,21 @@ const Home = () => {
                                             format={dateFormat}
                                             /> */}
                                             {/* <Space direction="vertical" size={12}> */}
-                                                <RangePicker style={{display:"flex"}}/>
+                                                <RangePicker
+                                                bordered={false}
+                                                suffixIcon={null}      
+                                                superNextIcon={null}
+                                                superPrevIcon={null}
+
+                                                separator={null}        
+                                            //     popupStyle={{borderRadius:"25px",backgroundColor:"rgb(255, 255, 255)",paddingLeft:"15px",
+                                            // paddingRight:"15px"}}                                 
+                                                
+                                                style={{display:"flex",border:"none",}}
+                                                
+
+                                                //popupStyle={{borderRadius:"60px",backgroundColor:"Green"}}
+                                                >|</RangePicker> 
                                             {/* </Space> */}
                                             
                                         
@@ -84,6 +106,9 @@ const Home = () => {
                                         
                                     </tbody>
                                 </table>
+                            </div>
+                            <div className='home-search-vl'>
+                                
                             </div>
                             <div className='home-searchbar-max-thirddiv'>
                                             

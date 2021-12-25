@@ -1,0 +1,405 @@
+.headerdiv-main-whitespace {
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  z-index: 1;
+  background-color: white;
+}
+
+.headerdiv-main-whitespace-transparant {
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  z-index: 1;
+  background-color: transparent;
+}
+
+@media only screen and (min-width: 990px) {
+  .headerdiv-main-whitespace-semidiv-one {
+    width: 95%;
+    height: 80px;
+  }
+
+  .headerdiv-main-whitespace-semidiv-two {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    max-width: 1920px;
+  }
+
+  .headerdiv-main-whitespace-semidiv-two-imagediv {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    max-width: 650px;
+  }
+
+  .header-image-div-cover {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    height: 100%;
+    width: 68%;
+  }
+
+  .header-image-div-cover-a {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+  }
+
+  .header-image-div-cover-img {
+    width: 115px;
+    margin: 10px 25px;
+  }
+
+  .headerdiv-main-whitespace-semidiv-one-space-maker {
+    height: 15px;
+    width: 100%;
+  }
+
+  .headerdiv-main-whitespace-semidiv-three {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 75%;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    height: 50px;
+  }
+
+  .headerdiv-main-whitespace-semidiv-three-1 {
+    display: block;
+    margin-left: 16%;
+    width: 35.01%;
+  }
+
+  .headerdiv-main-whitespace-semidiv-three-1-s1 {
+    opacity: 1;
+    transform: translateY(0vh) scale(1) translateZ(0px);
+    height: 50px;
+  }
+
+  .headerdiv-main-whitespace-semidiv-three-2 {
+    width: 30.73%;
+    height: 50px;
+    display: flex;
+    -webkit-box-pack: end;
+    justify-content: end;
+  }
+
+  .headerdiv-main-whitespace-semidiv-three-2-s1 {
+    box-sizing: border-box;
+    padding-top: 5px;
+  }
+
+  .headerdiv-main-whitespace-semidiv-three-2-s1-bah {
+    display: block;
+    background-color: white;
+    border-color: #00EFAC;
+    border: 1px solid #474545;
+    text-decoration: solid;
+    color: #969494;
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    cursor: pointer;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+
+  .headerdiv-main-whitespace-semidiv-three-2-s1-bah:hover {
+    background-color: #f3eff1;
+    color: black;
+  }
+
+  .headerdiv-main-whitespace-semidiv-three-3 {
+    width: 15.56%;
+    height: 50px;
+  }
+
+  .headerdiv-main-whitespace-semidiv-three-3-s1 {
+    position: relative;
+    margin-right: 25px;
+    margin-left: 20px;
+    height: 50px;
+    padding-top: 5px;
+  }
+
+  .headerdiv-main-whitespace-semidiv-three-3-s1-btn {
+    border-radius: 50px;
+    height: 40px;
+    width: 80px;
+    background-color: #a2a1a3;
+    float: right;
+    cursor: pointer;
+    border: 0px solid #f7f3f4;
+  }
+
+  .headerdiv-main-whitespace-semidiv-three-3-s1header-menuicon {
+    font-size: 20px;
+    color: whitesmoke;
+    padding-right: 6px;
+    padding-top: 5px;
+  }
+
+  .headerdiv-main-whitespace-semidiv-three-3-s1header-avatraicon {
+    background-color: white;
+    font-size: 15px;
+    padding: 7px;
+    border-radius: 50%;
+  }
+
+  .searchbar-div {
+    display: flex;
+    border-radius: 30px;
+    background-color: white;
+    height: 100%;
+    border: 1px solid;
+    padding: 1px;
+    box-shadow: 1px 1px #bdb8b8;
+    border: 1px solid #a2a1a3;
+  }
+
+  .searchbar-div-so-icon {
+    color: #d8d5db;
+    padding-top: 19px;
+    padding-left: 10px;
+  }
+
+  .headerdiv-menuicon-button {
+    float: right;
+    padding-top: 2%;
+    padding-right: 3%;
+    font-size: 20px;
+    display: none;
+  }
+
+  .headerdiv-closeoutlined {
+    float: right;
+    font-size: 18px;
+    color: #00EFAC;
+    margin-bottom: 3%;
+  }
+
+  .headerdiv-signin-btn {
+    background-color: #f0eaea;
+    height: 15%;
+    width: 100%;
+  }
+
+  .headerdiv-sign-btn {
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 3%;
+    margin-left: 5%;
+    border: none;
+    font-weight: bold;
+    background-color: #f7f7f7;
+  }
+
+  .headerdiv-signup-btn {
+    font-size: 18px;
+    border-radius: 5%;
+    cursor: pointer;
+    background-color: #00EFAC;
+    border: none;
+    color: #f3efef;
+    font-family: "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: bold;
+    padding: 7px 17px;
+  }
+}
+@media only screen and (max-width: 990px) {
+  .headerdiv-signin-btn-transperant-space {
+    height: 17px;
+    width: 100%;
+  }
+
+  .headerdiv-main-whitespace-semidiv-one {
+    width: 95%;
+    height: 80px;
+  }
+
+  .headerdiv-main-whitespace-semidiv-two {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    max-width: 1920px;
+  }
+
+  .headerdiv-main-whitespace-semidiv-two-imagediv {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    max-width: 650px;
+  }
+
+  .header-image-div-cover {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    height: 100%;
+    width: 68%;
+  }
+
+  .header-image-div-cover-a {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+  }
+
+  .header-image-div-cover-img {
+    width: 115px;
+    margin: 10px 25px;
+  }
+
+  .headerdiv-main-whitespace-semidiv-one-space-maker {
+    height: 15px;
+    width: 100%;
+  }
+
+  .headerdiv-main-whitespace-semidiv-three {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 75%;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    height: 50px;
+    display: block;
+  }
+
+  .headerdiv-main-whitespace-semidiv-three-1 {
+    display: block;
+    margin-left: 16%;
+    width: 35.01%;
+    display: none;
+  }
+
+  .headerdiv-main-whitespace-semidiv-three-1-s1 {
+    opacity: 1;
+    transform: translateY(0vh) scale(1) translateZ(0px);
+    height: 50px;
+    background-color: #c29595;
+    display: none;
+  }
+
+  .headerdiv-main-whitespace-semidiv-three-2 {
+    width: 30.73%;
+    height: 50px;
+    display: flex;
+    -webkit-box-pack: end;
+    justify-content: end;
+    background-color: bisque;
+    display: none;
+  }
+
+  .headerdiv-main-whitespace-semidiv-three-2-s1 {
+    box-sizing: border-box;
+    display: none;
+  }
+
+  .headerdiv-main-whitespace-semidiv-three-3 {
+    width: 15.56%;
+    height: 50px;
+    background-color: beige;
+    display: none;
+  }
+
+  .headerdiv-main-whitespace-semidiv-three-3-s1 {
+    position: relative;
+    margin-right: 25px;
+    margin-left: 20px;
+    height: 50px;
+    display: none;
+  }
+
+  .headerdiv-menuicon-button {
+    background-color: white;
+    float: right;
+    padding-top: 2%;
+    padding-right: 3%;
+    font-size: 20px;
+    border: none;
+  }
+
+  .headerdiv-menuicon-button :hover {
+    background-color: white;
+    float: right;
+    padding-top: 2%;
+    padding-right: 3%;
+    font-size: 20px;
+    border: none;
+  }
+
+  .headerdiv-menuicon-icon {
+    color: #000;
+  }
+
+  .headerdiv-menuicon-icon:hover {
+    color: #00EFAC;
+    font-size: 30;
+  }
+
+  .ant-drawer-body {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .headerdiv-closeoutline-padding {
+    float: right;
+    padding-right: 20px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .headerdiv-closeoutlined {
+    float: right;
+    font-size: 18px;
+    color: #070707;
+    margin-bottom: 3%;
+  }
+
+  .headerdiv-signin-btn {
+    background-color: #f7f7f7;
+    height: 15%;
+    width: 100%;
+    top: 20px;
+  }
+
+  .headerdiv-sign-btn {
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 3%;
+    margin-left: 5%;
+    border: none;
+    font-weight: bold;
+    background-color: #f7f7f7;
+  }
+
+  .headerdiv-signup-btn {
+    font-size: 18px;
+    border-radius: 5%;
+    cursor: pointer;
+    background-color: #00EFAC;
+    border: none;
+    color: #f3efef;
+    font-family: "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: bold;
+    padding: 7px 17px;
+  }
+}
+
+/*# sourceMappingURL=headerdiv.css.map */

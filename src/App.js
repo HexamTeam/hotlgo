@@ -1,25 +1,48 @@
 import './App.css';
-import Footer from './component/footer/Footer';
+import Footerr from './component/footer/Footerr';
 import Headericon from './component/header/Headericon';
 import Chg from './component/home/Chg';
 import Destination from './component/home/Destination';
 import Home from './component/home/Home';
+import Sbptype from './component/home/Sbptype';
 import TopDeal from './component/home/TopDeal';
+import '../src/css/rootcss/mainheader.css';
+import Headerdiv from './component/header/Headerdiv';
+
+
 
 function App() {
+
+  
  
   return (
     <div className="App">
       {/* <TestSider/> */}
-      <Headericon/>
-      <Home/> 
-      <Destination/>
-      <Chg/>
       
-      <TopDeal />
+        
+        <Headerdiv/>
+        {/* <Headericon/> */}
+        
+      
+        {/* className='mainheader-ant-header-landpage' */}
+      
+        <Home/> 
+        <Destination/>
+        <Sbptype/>
+        <Chg/>      
+        <TopDeal />
+      
+        
+        
+        <Footerr/>
+        
+        
+    
+      
+      
 
 
-      <Footer/>
+      
     </div>
   );
 }
