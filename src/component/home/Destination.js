@@ -5,6 +5,7 @@ import LImg from '../../resources/Image/LondonImg.jpg';
 
 const Destination = () => {
 
+    //reverting will revert
     const { Header,Content} = Layout;
     return(<>
         <div className='destination-body'>
