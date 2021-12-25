@@ -16,6 +16,8 @@
   max-width: 100%;
   margin-bottom: 3rem;
   color: #313131;
+  font-family: Poppins, sans-serif;
+  -webkit-font-smoothing: antialiased;
 }
 
 @media (max-width: 390px) {
@@ -36,7 +38,6 @@
   background-color: whitesmoke;
   grid-auto-flow: row;
   grid-template-columns: 250px 250px 250px 250px;
-  overflow-x: scroll;
   -webkit-box-pack: justify;
   justify-content: space-between;
   display: grid;
@@ -45,6 +46,34 @@
   overflow-y: hidden;
 }
 
+@media (max-width: 1279px) {
+  .destination-antlayout-content {
+    background-color: whitesmoke;
+    grid-auto-flow: row;
+    grid-template-columns: 250px 250px 250px 250px;
+    overflow-x: scroll;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    display: grid;
+    grid-template-rows: repeat(2, minmax(0px, 1fr));
+    gap: 1rem;
+    overflow-y: hidden;
+  }
+}
+@media (max-width: 690px) {
+  .destination-antlayout-content {
+    background-color: whitesmoke;
+    grid-auto-flow: row;
+    grid-template-columns: 250px 250px 250px 250px;
+    overflow-x: scroll;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    display: grid;
+    grid-template-rows: repeat(2, minmax(0px, 1fr));
+    gap: 1rem;
+    overflow-y: hidden;
+  }
+}
 .destination-antlayout-content-grid-item {
   padding-right: 0.5rem;
   display: flex;
@@ -70,9 +99,7 @@
   overflow: hidden;
   border-radius: 10px;
   max-width: 120px;
-  max-height: 120px;
-  min-width: 80px;
-  min-height: 80px;
+  max-height: 80px;
 }
 
 .destination-div2-img1 {
@@ -88,6 +115,11 @@
   box-sizing: border-box;
   display: block;
   max-width: 100%;
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  margin: 0px;
+  height: auto;
 }
 
 .destination-div3-img1-tag {
@@ -98,7 +130,7 @@
   margin: auto;
   display: block;
   width: 80px;
-  height: 86px;
+  height: 80px;
   min-width: 100%;
   max-width: 100%;
   min-height: 100%;
@@ -117,13 +149,13 @@
   font-size: 1.25rem;
   line-height: 1.75rem;
   margin-bottom: 0px;
-  font-weight: 400;
+  font-weight: 600;
   color: #3d3b3b;
 }
 
 .destination-antlayout-content-grid-item-content span {
   line-height: 1.25rem;
-  font-weight: 300;
+  font-weight: 400;
   color: #6b6b6b;
   font-size: 13px !important;
 }
