@@ -99,9 +99,9 @@ const Headerdiv = () => {
                             </div>
                             <div>
                                 <div className='headerdiv-menuicon-button'>
-                                    <Button type="primary" onClick={showDrawer} className='headerdiv-menuicon-button'>
+                                    {/* <Button type="primary" onClick={showDrawer} className='headerdiv-menuicon-button'> */}
                                     <MenuOutlined onClick={showDrawer} className='headerdiv-menuicon-icon'/>
-                                    </Button>
+                                    {/* </Button> */}
                                     <Drawer  width="80%" placement="right" onClose={onClose} visible={visible} closable={false} >
                                     <div className='headerdiv-closeoutline-padding'>
                                         <CloseOutlined height="30px" onClick={onClose} className='headerdiv-closeoutlined'/>
