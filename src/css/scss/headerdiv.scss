@@ -332,30 +332,34 @@
         height: 50px;
         display: none;
     }
-    .headerdiv-menuicon-button{
-        background-color:white;
-        //color: #ef2400;
-        float: right; 
-        padding-top: 2%;
-        padding-right: 3%;
-        font-size: 20px;
-        border: none;
-    }
-    .headerdiv-menuicon-button :hover{
-        background-color:white;
-        float: right; 
-        padding-top: 2%;
-        padding-right: 3%;
-        font-size: 20px;
-        border: none;
+    // .headerdiv-menuicon-button{
+    //     background-color:transparent;
+    //     //color: #ef2400;
+    //     float: right; 
+    //     padding-top: 2%;
+    //     padding-right: 3%;
+    //     font-size: 20px;
+    //     border: none;
+    //     border-color: transparent;
+    // }
+    // .headerdiv-menuicon-button :hover{
+    //     background-color:transparent;
+    //     float: right; 
+    //     padding-top: 2%;
+    //     padding-right: 3%;
+    //     border: none;
         
-    }
+        
+    // }
     .headerdiv-menuicon-icon{
         color: #000;
+        float: right;
+        padding-top: 2%;
+        padding-right: 3%; 
     }
     .headerdiv-menuicon-icon:hover{
         color:#00EFAC;
-        font-size: 30;
+        //width: 20px;
     }
     .ant-drawer-body {
         
