@@ -330,7 +330,8 @@
     color: #000;
     float: right;
     padding-top: 2%;
-    padding-right: 3%;
+    padding-right: 4%;
+    width: 20px;
   }
 
   .headerdiv-menuicon-icon:hover {
