@@ -362,6 +362,17 @@
   font-family: Poppins, sans-serif;
 }
 
+@media (max-width: 576px) {
+  .footer-mobile-left {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    font-family: Poppins, sans-serif;
+  }
+}
 @media (min-width: 576px) {
   .footer-mobile-left {
     flex: 0 0 33.33333333%;
@@ -373,6 +384,16 @@
   align-items: center;
 }
 
+@media (max-width: 576px) {
+  .footer-mobile-middle {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 @media (min-width: 576px) {
   .footer-mobile-middle {
     flex: 0 0 33.33333333%;
@@ -381,12 +402,25 @@
 }
 .footer-mobile-right {
   display: block;
+  justify-content: center;
+  align-items: center;
   text-align: right;
+  margin-left: auto;
+  margin-right: auto;
   padding-top: 30px;
   font-family: Poppins, sans-serif;
   width: 100%;
 }
 
+@media (min-width: 576px) {
+  .footer-mobile-right {
+    display: block;
+    text-align: right;
+    padding-top: 30px;
+    font-family: Poppins, sans-serif;
+    width: 100%;
+  }
+}
 @media (min-width: 576px) {
   .footer-mobile-right {
     flex: 0 0 33.33333333%;
