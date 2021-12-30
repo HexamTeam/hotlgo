@@ -16,7 +16,7 @@ const Headerdiv = () => {
             Login in
           </Menu.Item>
           <Menu.Item key="2" >
-            resiter
+            Register
           </Menu.Item>
           
         </Menu>

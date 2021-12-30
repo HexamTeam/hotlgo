@@ -89,7 +89,10 @@
       font-weight: 400;
       margin-bottom: 12px;
       width: 100%;
-      
+      //justify-content: center;
+      text-align: justify;
+      text-justify:inter-word;
+      display: flex;
    }
 }
 
@@ -149,7 +152,9 @@
       vertical-align: middle;
       margin-left: 20%;
       //background-color: aqua;
-      text-align: left;
+      text-align: justify;
+      text-justify:inter-word;
+      display: flex;
    }
    .tabpane-div-text-content{
       color: rgb(0, 0, 0);
